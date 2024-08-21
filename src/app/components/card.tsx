@@ -36,9 +36,7 @@ export default function CardComponent(props: CardProps) {
         <p className={styles.description}>{props.description}</p>
       </div>
       <p className={styles.testimonial}>{props.testimonial}</p>
-      <blockquote className={styles.backgroundStatement}>
-        <p>{props.backgroundStatement}</p>
-      </blockquote>
+      <q className={styles.backgroundStatement}>{props.backgroundStatement}</q>
     </article>
   );
 }

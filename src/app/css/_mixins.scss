@@ -12,6 +12,13 @@
   }
 }
 
+@mixin mobileAndTablet() {
+  /* Mobile */
+  @media (max-width: 1180px) {
+    @content;
+  }
+}
+
 @mixin desktop() {
   @media (min-width: 1181px) {
     @content;
