@@ -12,21 +12,6 @@
   padding-bottom: 4.4375rem;
   min-height: 100vh;
   background-color: var(--primary-color-light);
-
-  @include mobile {
-    // padding-top: 5.666666666666667em;
-    // padding-bottom: 5.2em;
-  }
-
-  @include tablet {
-    // padding: 2rem;
-    // padding-top: 5.666666666666667em;
-    // padding-bottom: 5.2em;
-  }
-
-  @include desktop {
-    // row-gap: 4rem;
-  }
 }
 
 .cardContainer {
@@ -36,8 +21,9 @@
 
   @include desktop {
     display: grid;
-    gap: 1.875rem;
-    grid-auto-columns: 1fr;
+    column-gap: 1.875rem;
+    row-gap: 1.5rem;
+    grid-auto-columns: 15.9375rem;
     grid-auto-rows: 1fr;
     max-width: 77.08333333333334%;
 
