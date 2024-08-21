@@ -153,14 +153,21 @@
 
 :nth-child(3 of article.card) {
   //isolating unique styles of third card
+  padding-bottom: 1.625rem;
 
   blockquote.backgroundStatement {
     color: var(--primary-color-dark);
   }
 }
 
+:nth-child(4 of article.card) {
+  //isolating unique styles of fourth card
+  padding-bottom: 1.625rem;
+}
+
 :nth-child(5 of article.card) {
   //isolating unique styles of fifth card
+  padding-bottom: 1.625rem;
 
   blockquote.backgroundStatement {
     color: var(--primary-color-dark);
