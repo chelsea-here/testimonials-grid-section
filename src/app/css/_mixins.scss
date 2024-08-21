@@ -1,0 +1,32 @@
+@mixin mobile() {
+  /* Mobile */
+  @media (max-width: 700px) {
+    @content;
+  }
+}
+
+@mixin tablet() {
+  /* Tablet and Smaller Desktop */
+  @media (min-width: 701px) and (max-width: 1180px) {
+    @content;
+  }
+}
+
+@mixin desktop() {
+  @media (min-width: 1181px) {
+    @content;
+  }
+}
+
+@mixin darkMode() {
+  /* Dark Mode */
+  @media (prefers-color-scheme: dark) {
+    @content;
+  }
+}
+
+@mixin hover {
+  &:not([disabled]):hover {
+    @content;
+  }
+}
